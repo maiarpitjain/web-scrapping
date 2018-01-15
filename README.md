@@ -3,7 +3,7 @@ web scrapping using python
 
 ### we used python and some python libraries like requests, bs4 and urllib
 
-##Steps involved in web scraping:
+## Steps involved in web scraping:
 
 1. Send a HTTP request to the URL of the webpage you want to access. The server responds to the request by returning the HTML content of the webpage. For this task, we will use a third-party HTTP library
    for python requests.
@@ -17,17 +17,17 @@ web scrapping using python
 
 ## Step1 - installing the required third-party libraries
 
-   '''pip install requests'''
-   '''pip install html5lib'''
-   '''pip install bs4'''
+   ####pip install requests
+   ####pip install html5lib
+   ####pip install bs4
 
-##Step 2: Accessing the HTML content from webpage
+## Step 2: Accessing the HTML content from webpage
 
-'''import requests
+   import requests
    URL = "https://www.geeksforgeeks.org/data-structures/"
    r = requests.get(URL)
    print(r.content)
-'''
+
 
 *Let us try to understand this piece of code.
 
@@ -36,9 +36,9 @@ web scrapping using python
 *Send a HTTP request to the specified URL and save the response from server in a response object called r.
 *Now, as print r.content to get the raw HTML content of the webpage. It is of ‘string’ type.
 
-##step3 - parsing the html content
-    #This will not run on online IDE
-'''import requests
+## step3 - parsing the html content
+    This will not run on online IDE
+   import requests
    from bs4 import BeautifulSoup
  
    URL = "http://www.values.com/inspirational-quotes"
@@ -46,7 +46,7 @@ web scrapping using python
  
    soup = BeautifulSoup(r.content, 'html5lib')
    print(soup.prettify())
-'''
+
 
 
 
