@@ -17,16 +17,16 @@ web scrapping using python
 
 ## Step1 - installing the required third-party libraries
 
-#### pip install requests
-#### pip install html5lib
-#### pip install bs4
+    pip install requests
+    pip install html5lib
+    pip install bs4
 
 ## Step 2: Accessing the HTML content from webpage
 
-   import requests
-   URL = "https://www.geeksforgeeks.org/data-structures/"
-   r = requests.get(URL)
-   print(r.content)
+    import requests
+    URL = "https://www.geeksforgeeks.org/data-structures/"
+    r = requests.get(URL)
+    print(r.content)
 
 
 *Let us try to understand this piece of code.
