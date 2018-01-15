@@ -29,12 +29,12 @@ web scrapping using python
     print(r.content)
 
 
-*Let us try to understand this piece of code.
+* Let us try to understand this piece of code.
 
-*First of all import the requests library.
-*Then, specify the URL of the webpage you want to scrape.
-*Send a HTTP request to the specified URL and save the response from server in a response object called r.
-*Now, as print r.content to get the raw HTML content of the webpage. It is of ‘string’ type.
+* First of all import the requests library.
+* Then, specify the URL of the webpage you want to scrape.
+* Send a HTTP request to the specified URL and save the response from server in a response object called r.
+* Now, as print r.content to get the raw HTML content of the webpage. It is of ‘string’ type.
 
 ## step3 - parsing the html content
    This will not run on online IDE
