@@ -17,9 +17,9 @@ web scrapping using python
 
 ## Step1 - installing the required third-party libraries
 
-   ####pip install requests
-   ####pip install html5lib
-   ####pip install bs4
+#### pip install requests
+#### pip install html5lib
+#### pip install bs4
 
 ## Step 2: Accessing the HTML content from webpage
 
